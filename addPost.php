@@ -39,7 +39,7 @@ session_start();
                 
                   <div class='form-group'>
                       <label>Title</label>
-                        <input type='text' name='title' class='form-control'  >
+                        <input type='text' name='title' class='form-control' >
                     </div>
                     <div class='form-group'>
                         <input type='hidden'  name='author' class='form-control' value='<?php echo $_SESSION['Uname'] ?>'  >
@@ -54,7 +54,7 @@ session_start();
 
                       <small>Select image to upload:</small>
                     <input type="file" name="image" id="fileToUpload">
-                                        
+
                 </Form>
                           
                                       

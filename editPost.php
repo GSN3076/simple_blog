@@ -41,7 +41,7 @@ session_start();
        $post = mysqli_fetch_assoc($result);
    
        mysqli_free_result($result);
-   
+       
        //close connection
        mysqli_close($conn);
 ?>
